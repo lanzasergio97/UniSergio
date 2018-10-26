@@ -1,0 +1,132 @@
+/*
+Autore:Lanza Sergio
+Corte: 2016/2017
+Corso Teconologie Web 6 crediti
+
+Tema:
+Riprodurre il layout del sito  TMNT
+(Sito su una recensione di un film)
+
+
+*/
+
+
+
+body{
+   background-image:url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+
+    font-family: Verdana,Tahoma;
+    font-size 8pt;
+    font-size: 8pt;
+    font-family: Verdana;
+}
+  #bann1{
+    background-image:url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+    }
+    #bann2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+h1{
+    font-family: Tahoma,Verdana;
+    text-align: center;
+    font-size: 24pt;
+    text-shadow: 3px 3px  #999999;
+
+}
+.num{
+  color: red;
+  font-size :48pt;
+  background-image:url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+  border-radius: 10px 0px 0px 0px;
+
+}
+.box{
+
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: slategray;
+  border-style: solid;
+	border-width: 4px;
+	border-radius: 10px;
+  position: relative;
+  height: 100%;
+  float: none;
+overflow: hidden;
+}
+.sidebar{
+  float: right;
+  width: 250px;
+  font-family: tahoma;
+  background-color: #A2B964;
+  position: relative;
+}
+
+#turtle{	width: 250px;	border-radius: 10px 10px 10px 10px; }
+
+#box2 {
+
+	width: 550px;
+	height: 100%;
+
+	position: relative;
+
+}
+
+dt{
+  font-weight:bold;
+text-align: left;
+}
+dd{
+  font-size: 8pt;
+  font-style:  Arial;
+  margin-bottom: 10pt;
+}
+
+
+
+.col1{
+    float: left;
+  width: 47%;
+  margin-left: 2%;
+  position: relative;
+}
+.col2{
+  float: right;
+  width: 47%;
+  margin-right: 2%;
+  position: relative;
+
+}
+
+.commenti{
+	float: left;
+	border-color: slategray;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 100%;
+	font-family: comic sans ms;
+	font-size: 10pt;
+	font-weight: 900;
+	font-style: italic;
+	background-color: #E8DC9B;
+	margin-right: 2%;
+	margin-bottom: 5px;
+	position: relative;
+
+
+}
+
+
+
+.fondo{
+
+background-color: #A2B964;
+text-align: center;
+
+}

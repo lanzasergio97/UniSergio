@@ -1,0 +1,141 @@
+body{
+	background-image: url( http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png );
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+.div1{
+	text-align: center;
+	background-image: url( http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png );
+	height: 50px;
+	float: none;
+}
+
+
+
+h1{	text-align: center;
+	font-size: 24 pt;
+	font-family: Tahoma;
+	text-shadow: 3px 3px 10px #999999;
+
+}
+
+h2{
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+	position: relative;
+	top: -130px; left: 100px;
+}
+
+.divPrincipale{
+	background-color: palegreen;
+	border-color: slategray;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 100%;
+	float: none;
+	position: relative;
+}
+
+
+
+.divDestra{
+	float: right;
+	width: 300px;
+	font-family: tahoma;
+	font-weight: bold;
+	position: relative;
+}
+
+.TMNT{	width: 300px;	border-radius: 0px 10px 0px 0px; }
+
+.div2{
+	text-align: left;
+	height: 83px;
+	background-image: url( http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png );
+	float: none;
+
+}
+
+.divSinistra{
+	background-image: url( http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png );
+	float: float right;
+	width: 500px;
+	height: 100%;
+	position: relative;
+
+}
+
+.divSinistraS{
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+	position: relative;
+
+
+}
+
+
+
+
+
+.boxDiv{
+	float: left;
+	border-color: slategray;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 100%;
+	font-family: comic sans ms;
+	font-size: 10pt;
+	font-weight: 900;
+	font-style: italic;
+	background-color: #E8DC9B;
+	margin-right: 2%;
+	margin-bottom: 5px;
+	position: relative;
+
+}
+
+.ultimoDiv{
+	margin-bottom: 20pt;
+
+}
+
+
+
+
+Nell’area totale c’è una sezione di 550px a sinistra per la
+classificazione ‘rotten’ e le recensioni critiche.
+La sezione ha in cima un’immagine ‘rotten’ (rottenbig.png),
+allineata verticalmente in modo tale da avere sempre in fondo il
+testo. Sotto questa immagine, l’immagine rbg.png si ripete
+orizzontalmente per tutta la lunghezza della sezione. Ognuna delle
+immagini è alta 83px. Questa è seguita dalla ‘33% rotten’ del
+film, la quale è rappresentata usando un font grassetto rosso di
+dimensione 48pt.
+Sotto il ‘33% rotten’, ci sono due colonne per le recensioni. Le
+colonne occupano ognuna il 47% della larghezza dell’intera sezione
+centro-sinistra della pagina. C’è uno spazio orizzontale del 2%
+tra le colonne e il contento vicino. (Suggerimento: evita la
+proprietà CSS3 column-).
+Ogni recensione consiste in un box con dentro una citazione dal
+film in font grassetto 8pt. Il box della citazione ha come colore
+di background #E8DC9B, un bordo grigio, denso 2px e con i bordi
+arrotondati di 10px. 8px separano il box delle citazioni dal
+contenuto. Ogni box ha un’icona (fresh.gf o rotten.gif) per i like
+dei recensori rispetto al film. Le icone si trovano sul lato
+sinistro del box, con 5px di separazione dal testo a destra. Il
+testo è avvolto dall’immagine.
+Le informazioni personali del recensore sono sotto il box e
+includono: il nome, la pubblicazione in corsivo. Un’icona per il
+recensore (critic.gif) è mostrata alla sinistra del testo, con uno
+spazio di 5px orizzontali che lo separano dal testo. Ci sono 20pt
+di spazio verticale tra i recensori. (Suggerimento: i paragrafi
+delle recensioni devono essere di dimensioni tali da contenere
+tutto il testo, includendo anche il contenuto floattante.)

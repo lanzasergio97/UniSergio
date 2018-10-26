@@ -1,0 +1,46 @@
+body{
+
+color: #000000;
+background-color:coral;
+}
+h1{
+text-align:center;
+font-size: 40pt;
+font-weight:bold;
+font-family :Garamond, "Times New Roman";
+
+}
+h2, h3{
+text-align:justify;
+font-size:30;
+font-family:"Times New Roman";
+background-color: #336699;
+color: white;
+}
+
+p{
+text-decoration: blink;
+font-size: 20pt;
+font-family:"Times New Roman";
+
+}
+a{
+
+font-size: 20pt;
+font-family:"Times New Roman";
+}
+ul{
+
+	background-color:grey
+
+
+}
+#normaltext {
+	font-size: 20pt;
+  font-style: italic;
+}
+#green {
+font-size: 20pt;
+  font-style: italic;
+  color: green;
+}
